@@ -50,16 +50,38 @@ h2{
 
  /* header start */
 
-header{
-    background: #feffff;
-}
 
-header .container .row{
+ .header_section {
+    background: #f8f8f8;
+    padding: 10px 0;
+  }
+   .header_section  .row {
     display: flex;
-     justify-content: space-evenly;
-     padding: 20px 0px;
-     align-items: center;
-}
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 0px;
+    align-items: center;
+  }
+  .logo img {
+    height: 50px;
+  }
+  
+  .menu_bar ul {
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* Hide hamburger by default */
+  .hamburger {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+
+
+
+
 
 
 
@@ -166,10 +188,7 @@ header .container .row{
     padding: 30px 0px;
 }
 .client_section .row{
-    /* display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    align-items: center;
-    align-content: center; */
+   
     display: flex;
     justify-content: space-evenly;
 }
@@ -685,3 +704,5 @@ footer {
 
 
 /* footer css end */
+
+
