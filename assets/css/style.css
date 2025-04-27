@@ -54,6 +54,9 @@ h2{
  .header_section {
     background: #f8f8f8;
     padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 999;
   }
    .header_section  .row {
     display: flex;
@@ -588,8 +591,12 @@ text-align: left;
 .learn_btn{
     padding: 12px 20px;
     border-radius: 30px;
-    border: 1px solid #CBD5E1;
+    border: 1px solid rgba(79, 70, 229, 1);
     text-decoration: none;
+    color: rgba(79, 70, 229, 1);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
   
 }
 
@@ -601,6 +608,9 @@ text-align: left;
     background: #4F46E5;
     color: #fff;
     margin: 0px 10px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
 }
 
 .ctn_btn{
@@ -622,7 +632,7 @@ text-align: left;
     right: 5%;
     width: 260px;
     height: 440px;
-    z-index: 999 !important;
+   
     bottom: 30;
 }
 /* downloadapp_section end */
